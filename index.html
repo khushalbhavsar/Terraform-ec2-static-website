@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website on EC2</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>🚀 Welcome to My Static Website</h1>
+            <p class="subtitle">Hosted on AWS EC2 with Terraform</p>
+        </header>
+
+        <main>
+            <section class="hero">
+                <h2>Successfully Deployed!</h2>
+                <p>This website is running on an Amazon EC2 instance, deployed using Terraform Infrastructure as Code.
+                </p>
+            </section>
+
+            <section class="features">
+                <div class="feature-card">
+                    <div class="icon">☁️</div>
+                    <h3>Cloud Infrastructure</h3>
+                    <p>Deployed on AWS using EC2 instances with automated provisioning.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">🔧</div>
+                    <h3>Infrastructure as Code</h3>
+                    <p>Managed with Terraform for reproducible and version-controlled deployments.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">🌐</div>
+                    <h3>Web Server</h3>
+                    <p>Apache HTTP Server serving static content with custom configuration.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="icon">🔒</div>
+                    <h3>Secure Setup</h3>
+                    <p>Configured with security groups and VPC for network isolation.</p>
+                </div>
+            </section>
+
+            <section class="tech-stack">
+                <h2>Technology Stack</h2>
+                <ul>
+                    <li><strong>Cloud Provider:</strong> Amazon Web Services (AWS)</li>
+                    <li><strong>Compute:</strong> EC2 Instance</li>
+                    <li><strong>Web Server:</strong> Apache HTTP Server</li>
+                    <li><strong>IaC Tool:</strong> Terraform</li>
+                    <li><strong>Frontend:</strong> HTML5 & CSS3</li>
+                </ul>
+            </section>
+
+            <section class="info">
+                <h2>About This Project</h2>
+                <p>This is a demonstration of deploying a static website on AWS EC2 using Terraform. The infrastructure
+                    includes:</p>
+                <ul class="infrastructure-list">
+                    <li>Custom VPC with public subnet</li>
+                    <li>Internet Gateway for public access</li>
+                    <li>Security Group with HTTP, HTTPS, and SSH access</li>
+                    <li>EC2 instance running Amazon Linux 2</li>
+                    <li>Elastic IP for consistent public IP address</li>
+                    <li>Automated Apache installation via user data</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Built with ❤️ using Terraform and AWS</p>
+            <p class="footer-note">Learn DevOps | Cloud Infrastructure Project</p>
+        </footer>
+    </div>
+</body>
+
+</html>
